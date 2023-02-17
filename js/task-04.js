@@ -4,7 +4,7 @@ const numberValue = document.querySelector('#value');
 
 
 incrementBtn.addEventListener('click', onIncrementBtnClick);
-decrementBtn.addEventListener('click', ondecrementBtnClick);
+decrementBtn.addEventListener('click', onDecrementBtnClick);
 
 
 
@@ -15,7 +15,7 @@ function onIncrementBtnClick(event) {
 };
 
 
-function ondecrementBtnClick(event) {
+function onDecrementBtnClick(event) {
     CounterValue -= 1; 
 numberValue.textContent = CounterValue;
 };
